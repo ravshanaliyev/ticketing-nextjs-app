@@ -1,9 +1,9 @@
 import React from 'react'
 
-const TicketCard = () => {
+const TicketPage = ({ params }) => {
     return (
-        <div>TicketCard</div>
+        <div>TicketCard </div>
     )
 }
 
-export default TicketCard
+export default TicketPage
