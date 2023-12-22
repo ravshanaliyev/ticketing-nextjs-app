@@ -1,6 +1,8 @@
 
-export default function Home() {
+const Dashboard = () => {
   return (
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div>Dashboard</div>
   )
 }
+
+export default Dashboard
