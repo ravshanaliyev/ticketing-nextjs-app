@@ -177,7 +177,7 @@ const EditTicketForm = ({ ticket }) => {
                 </select>
                 <input
                     type="submit"
-                    className="btn max-w-xs"
+                    className="no-underline text-bg-blue-accent tracking-wider w-full text-center   cursor-pointer uppercase text-white mt-2 py-2 rounded-md bg-blue-accent hover:bg-blue-accent-hover transition-colors block "
                     value={EDITMODE ? "Update Ticket" : "Create Ticket"}
                 />
             </form>

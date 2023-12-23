@@ -57,7 +57,7 @@ body {
   input,
   select,
   textarea {
-    @apply m-1 rounded bg-card p-1;
+    @apply m-1 rounded bg-card p-3;
   }
 }
 
@@ -66,7 +66,7 @@ body {
     @apply text-default-text text-xl;
   }
 
-  .btn {
-    @apply hover: no-underline bg-blue-accent tracking-wider w-full text-center text-nav font-bold cursor-pointer uppercase px-4 py-2 rounded-md hover:bg-blue-accent-hover transition-colors block;
-  }
+  /* .btn {
+  @apply no-underline text-bg-blue-accent tracking-wider w-full text-center text-nav font-bold cursor-pointer uppercase px-4 py-2 rounded-md hover: bg-blue-accent-hover transition-colors block;
+} */
 }

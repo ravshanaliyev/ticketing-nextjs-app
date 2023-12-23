@@ -2,7 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
-import Navbar from "./(components)/navbar";
+import Navbar from "./(components)/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 config.autoAddCss = false;
 export const metadata = {
